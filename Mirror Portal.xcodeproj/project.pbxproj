@@ -1,0 +1,527 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6A176D2E19F849480067D091 /* MirrorPortalManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A176D2D19F849480067D091 /* MirrorPortalManager.m */; };
+		6A176D3019F863A50067D091 /* albatros.png in Resources */ = {isa = PBXBuildFile; fileRef = 6A176D2F19F863A50067D091 /* albatros.png */; };
+		6A176D3619F86E090067D091 /* mirror.png in Resources */ = {isa = PBXBuildFile; fileRef = 6A176D3519F86E090067D091 /* mirror.png */; };
+		6A176D3C19F874FF0067D091 /* social-icons-01.png in Resources */ = {isa = PBXBuildFile; fileRef = 6A176D3819F874FF0067D091 /* social-icons-01.png */; };
+		6A176D3D19F874FF0067D091 /* social-icons-02.png in Resources */ = {isa = PBXBuildFile; fileRef = 6A176D3919F874FF0067D091 /* social-icons-02.png */; };
+		6A176D3E19F874FF0067D091 /* social-icons-04.png in Resources */ = {isa = PBXBuildFile; fileRef = 6A176D3A19F874FF0067D091 /* social-icons-04.png */; };
+		6A176D3F19F874FF0067D091 /* social-icons-07.png in Resources */ = {isa = PBXBuildFile; fileRef = 6A176D3B19F874FF0067D091 /* social-icons-07.png */; };
+		6A176D4219F875AC0067D091 /* WidgetViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A176D4119F875AC0067D091 /* WidgetViewController.m */; };
+		6A176D4519F877720067D091 /* arrow_carrot-left_alt2.png in Resources */ = {isa = PBXBuildFile; fileRef = 6A176D4319F877720067D091 /* arrow_carrot-left_alt2.png */; };
+		6A176D4619F877720067D091 /* arrow_carrot-right_alt2.png in Resources */ = {isa = PBXBuildFile; fileRef = 6A176D4419F877720067D091 /* arrow_carrot-right_alt2.png */; };
+		6A176D4819F87C2D0067D091 /* weather.png in Resources */ = {isa = PBXBuildFile; fileRef = 6A176D4719F87C2D0067D091 /* weather.png */; };
+		6A176D4A19F87C9F0067D091 /* selftimer.png in Resources */ = {isa = PBXBuildFile; fileRef = 6A176D4919F87C9E0067D091 /* selftimer.png */; };
+		6A261EA219F7FCB600C983FE /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A261EA119F7FCB600C983FE /* main.m */; };
+		6A261EA519F7FCB600C983FE /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A261EA419F7FCB600C983FE /* AppDelegate.m */; };
+		6A261EA819F7FCB600C983FE /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A261EA719F7FCB600C983FE /* ViewController.m */; };
+		6A261EAB19F7FCB600C983FE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6A261EA919F7FCB600C983FE /* Main.storyboard */; };
+		6A261EAD19F7FCB600C983FE /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6A261EAC19F7FCB600C983FE /* Images.xcassets */; };
+		6A261EBC19F7FCB600C983FE /* Mirror_PortalTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A261EBB19F7FCB600C983FE /* Mirror_PortalTests.m */; };
+		6A261EC619F80B3F00C983FE /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6A261EC519F80B3F00C983FE /* MapKit.framework */; };
+		6A261EC919F80CE400C983FE /* PortalAdminViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A261EC819F80CE400C983FE /* PortalAdminViewController.m */; };
+		6A31B4ED19F94B9D00AC59A9 /* email.png in Resources */ = {isa = PBXBuildFile; fileRef = 6A31B4EC19F94B9D00AC59A9 /* email.png */; };
+		6A31B4EF19F94BB000AC59A9 /* chart.png in Resources */ = {isa = PBXBuildFile; fileRef = 6A31B4EE19F94BB000AC59A9 /* chart.png */; };
+		6A31B4F219F9512900AC59A9 /* AddressAnnotation.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A31B4F119F9512900AC59A9 /* AddressAnnotation.m */; };
+		6A31B4F519F9542A00AC59A9 /* MapViewAnnotation.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A31B4F419F9542A00AC59A9 /* MapViewAnnotation.m */; };
+		6A31B4F819F962CF00AC59A9 /* PortalClientViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A31B4F719F962CF00AC59A9 /* PortalClientViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		6A261EB619F7FCB600C983FE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6A261E9419F7FCB600C983FE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6A261E9B19F7FCB600C983FE;
+			remoteInfo = "Mirror Portal";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		6A176D2C19F849480067D091 /* MirrorPortalManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MirrorPortalManager.h; sourceTree = "<group>"; };
+		6A176D2D19F849480067D091 /* MirrorPortalManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MirrorPortalManager.m; sourceTree = "<group>"; };
+		6A176D2F19F863A50067D091 /* albatros.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = albatros.png; path = ../../../Dropbox/bquest/CRM/albatros/albatros.png; sourceTree = "<group>"; };
+		6A176D3519F86E090067D091 /* mirror.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = mirror.png; sourceTree = "<group>"; };
+		6A176D3819F874FF0067D091 /* social-icons-01.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "social-icons-01.png"; sourceTree = "<group>"; };
+		6A176D3919F874FF0067D091 /* social-icons-02.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "social-icons-02.png"; sourceTree = "<group>"; };
+		6A176D3A19F874FF0067D091 /* social-icons-04.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "social-icons-04.png"; sourceTree = "<group>"; };
+		6A176D3B19F874FF0067D091 /* social-icons-07.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "social-icons-07.png"; sourceTree = "<group>"; };
+		6A176D4019F875AC0067D091 /* WidgetViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = WidgetViewController.h; path = ../WidgetViewController.h; sourceTree = "<group>"; };
+		6A176D4119F875AC0067D091 /* WidgetViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = WidgetViewController.m; path = ../WidgetViewController.m; sourceTree = "<group>"; };
+		6A176D4319F877720067D091 /* arrow_carrot-left_alt2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "arrow_carrot-left_alt2.png"; sourceTree = "<group>"; };
+		6A176D4419F877720067D091 /* arrow_carrot-right_alt2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "arrow_carrot-right_alt2.png"; sourceTree = "<group>"; };
+		6A176D4719F87C2D0067D091 /* weather.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = weather.png; sourceTree = "<group>"; };
+		6A176D4919F87C9E0067D091 /* selftimer.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = selftimer.png; sourceTree = "<group>"; };
+		6A261E9C19F7FCB600C983FE /* Mirror Portal.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Mirror Portal.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6A261EA019F7FCB600C983FE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6A261EA119F7FCB600C983FE /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		6A261EA319F7FCB600C983FE /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		6A261EA419F7FCB600C983FE /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		6A261EA619F7FCB600C983FE /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		6A261EA719F7FCB600C983FE /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		6A261EAA19F7FCB600C983FE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		6A261EAC19F7FCB600C983FE /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		6A261EB519F7FCB600C983FE /* Mirror PortalTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Mirror PortalTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6A261EBA19F7FCB600C983FE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6A261EBB19F7FCB600C983FE /* Mirror_PortalTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Mirror_PortalTests.m; sourceTree = "<group>"; };
+		6A261EC519F80B3F00C983FE /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		6A261EC719F80CE400C983FE /* PortalAdminViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PortalAdminViewController.h; sourceTree = "<group>"; };
+		6A261EC819F80CE400C983FE /* PortalAdminViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PortalAdminViewController.m; sourceTree = "<group>"; };
+		6A31B4EC19F94B9D00AC59A9 /* email.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = email.png; sourceTree = "<group>"; };
+		6A31B4EE19F94BB000AC59A9 /* chart.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = chart.png; sourceTree = "<group>"; };
+		6A31B4F019F9512900AC59A9 /* AddressAnnotation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AddressAnnotation.h; sourceTree = "<group>"; };
+		6A31B4F119F9512900AC59A9 /* AddressAnnotation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AddressAnnotation.m; sourceTree = "<group>"; };
+		6A31B4F319F9542A00AC59A9 /* MapViewAnnotation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MapViewAnnotation.h; sourceTree = "<group>"; };
+		6A31B4F419F9542A00AC59A9 /* MapViewAnnotation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MapViewAnnotation.m; sourceTree = "<group>"; };
+		6A31B4F619F962CF00AC59A9 /* PortalClientViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PortalClientViewController.h; sourceTree = "<group>"; };
+		6A31B4F719F962CF00AC59A9 /* PortalClientViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PortalClientViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6A261E9919F7FCB600C983FE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6A261EC619F80B3F00C983FE /* MapKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6A261EB219F7FCB600C983FE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6A176D2B19F848DF0067D091 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				6A176D4019F875AC0067D091 /* WidgetViewController.h */,
+				6A176D4119F875AC0067D091 /* WidgetViewController.m */,
+				6A261EA619F7FCB600C983FE /* ViewController.h */,
+				6A261EA719F7FCB600C983FE /* ViewController.m */,
+				6A261EC719F80CE400C983FE /* PortalAdminViewController.h */,
+				6A261EC819F80CE400C983FE /* PortalAdminViewController.m */,
+				6A31B4F619F962CF00AC59A9 /* PortalClientViewController.h */,
+				6A31B4F719F962CF00AC59A9 /* PortalClientViewController.m */,
+			);
+			name = Views;
+			sourceTree = "<group>";
+		};
+		6A176D3719F873850067D091 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				6A31B4EE19F94BB000AC59A9 /* chart.png */,
+				6A31B4EC19F94B9D00AC59A9 /* email.png */,
+				6A176D4719F87C2D0067D091 /* weather.png */,
+				6A176D4319F877720067D091 /* arrow_carrot-left_alt2.png */,
+				6A176D4419F877720067D091 /* arrow_carrot-right_alt2.png */,
+				6A176D4919F87C9E0067D091 /* selftimer.png */,
+				6A176D3819F874FF0067D091 /* social-icons-01.png */,
+				6A176D3919F874FF0067D091 /* social-icons-02.png */,
+				6A176D3A19F874FF0067D091 /* social-icons-04.png */,
+				6A176D3B19F874FF0067D091 /* social-icons-07.png */,
+				6A176D3519F86E090067D091 /* mirror.png */,
+				6A176D2F19F863A50067D091 /* albatros.png */,
+			);
+			name = Images;
+			sourceTree = "<group>";
+		};
+		6A261E9319F7FCB600C983FE = {
+			isa = PBXGroup;
+			children = (
+				6A31B4F319F9542A00AC59A9 /* MapViewAnnotation.h */,
+				6A31B4F419F9542A00AC59A9 /* MapViewAnnotation.m */,
+				6A261EC519F80B3F00C983FE /* MapKit.framework */,
+				6A261E9E19F7FCB600C983FE /* Mirror Portal */,
+				6A261EB819F7FCB600C983FE /* Mirror PortalTests */,
+				6A261E9D19F7FCB600C983FE /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		6A261E9D19F7FCB600C983FE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6A261E9C19F7FCB600C983FE /* Mirror Portal.app */,
+				6A261EB519F7FCB600C983FE /* Mirror PortalTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6A261E9E19F7FCB600C983FE /* Mirror Portal */ = {
+			isa = PBXGroup;
+			children = (
+				6A176D3719F873850067D091 /* Images */,
+				6A261EA319F7FCB600C983FE /* AppDelegate.h */,
+				6A261EA419F7FCB600C983FE /* AppDelegate.m */,
+				6A176D2B19F848DF0067D091 /* Views */,
+				6A261EA919F7FCB600C983FE /* Main.storyboard */,
+				6A261EAC19F7FCB600C983FE /* Images.xcassets */,
+				6A261E9F19F7FCB600C983FE /* Supporting Files */,
+				6A176D2C19F849480067D091 /* MirrorPortalManager.h */,
+				6A176D2D19F849480067D091 /* MirrorPortalManager.m */,
+			);
+			path = "Mirror Portal";
+			sourceTree = "<group>";
+		};
+		6A261E9F19F7FCB600C983FE /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				6A261EA019F7FCB600C983FE /* Info.plist */,
+				6A261EA119F7FCB600C983FE /* main.m */,
+				6A31B4F019F9512900AC59A9 /* AddressAnnotation.h */,
+				6A31B4F119F9512900AC59A9 /* AddressAnnotation.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		6A261EB819F7FCB600C983FE /* Mirror PortalTests */ = {
+			isa = PBXGroup;
+			children = (
+				6A261EBB19F7FCB600C983FE /* Mirror_PortalTests.m */,
+				6A261EB919F7FCB600C983FE /* Supporting Files */,
+			);
+			path = "Mirror PortalTests";
+			sourceTree = "<group>";
+		};
+		6A261EB919F7FCB600C983FE /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				6A261EBA19F7FCB600C983FE /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6A261E9B19F7FCB600C983FE /* Mirror Portal */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6A261EBF19F7FCB600C983FE /* Build configuration list for PBXNativeTarget "Mirror Portal" */;
+			buildPhases = (
+				6A261E9819F7FCB600C983FE /* Sources */,
+				6A261E9919F7FCB600C983FE /* Frameworks */,
+				6A261E9A19F7FCB600C983FE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Mirror Portal";
+			productName = "Mirror Portal";
+			productReference = 6A261E9C19F7FCB600C983FE /* Mirror Portal.app */;
+			productType = "com.apple.product-type.application";
+		};
+		6A261EB419F7FCB600C983FE /* Mirror PortalTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6A261EC219F7FCB600C983FE /* Build configuration list for PBXNativeTarget "Mirror PortalTests" */;
+			buildPhases = (
+				6A261EB119F7FCB600C983FE /* Sources */,
+				6A261EB219F7FCB600C983FE /* Frameworks */,
+				6A261EB319F7FCB600C983FE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6A261EB719F7FCB600C983FE /* PBXTargetDependency */,
+			);
+			name = "Mirror PortalTests";
+			productName = "Mirror PortalTests";
+			productReference = 6A261EB519F7FCB600C983FE /* Mirror PortalTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6A261E9419F7FCB600C983FE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0600;
+				ORGANIZATIONNAME = bquest;
+				TargetAttributes = {
+					6A261E9B19F7FCB600C983FE = {
+						CreatedOnToolsVersion = 6.0.1;
+					};
+					6A261EB419F7FCB600C983FE = {
+						CreatedOnToolsVersion = 6.0.1;
+						TestTargetID = 6A261E9B19F7FCB600C983FE;
+					};
+				};
+			};
+			buildConfigurationList = 6A261E9719F7FCB600C983FE /* Build configuration list for PBXProject "Mirror Portal" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 6A261E9319F7FCB600C983FE;
+			productRefGroup = 6A261E9D19F7FCB600C983FE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6A261E9B19F7FCB600C983FE /* Mirror Portal */,
+				6A261EB419F7FCB600C983FE /* Mirror PortalTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6A261E9A19F7FCB600C983FE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6A176D3619F86E090067D091 /* mirror.png in Resources */,
+				6A176D3019F863A50067D091 /* albatros.png in Resources */,
+				6A176D3E19F874FF0067D091 /* social-icons-04.png in Resources */,
+				6A261EAB19F7FCB600C983FE /* Main.storyboard in Resources */,
+				6A176D4519F877720067D091 /* arrow_carrot-left_alt2.png in Resources */,
+				6A176D3D19F874FF0067D091 /* social-icons-02.png in Resources */,
+				6A261EAD19F7FCB600C983FE /* Images.xcassets in Resources */,
+				6A31B4ED19F94B9D00AC59A9 /* email.png in Resources */,
+				6A176D4A19F87C9F0067D091 /* selftimer.png in Resources */,
+				6A176D3F19F874FF0067D091 /* social-icons-07.png in Resources */,
+				6A176D4619F877720067D091 /* arrow_carrot-right_alt2.png in Resources */,
+				6A176D3C19F874FF0067D091 /* social-icons-01.png in Resources */,
+				6A31B4EF19F94BB000AC59A9 /* chart.png in Resources */,
+				6A176D4819F87C2D0067D091 /* weather.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6A261EB319F7FCB600C983FE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6A261E9819F7FCB600C983FE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6A31B4F219F9512900AC59A9 /* AddressAnnotation.m in Sources */,
+				6A261EC919F80CE400C983FE /* PortalAdminViewController.m in Sources */,
+				6A31B4F519F9542A00AC59A9 /* MapViewAnnotation.m in Sources */,
+				6A261EA819F7FCB600C983FE /* ViewController.m in Sources */,
+				6A31B4F819F962CF00AC59A9 /* PortalClientViewController.m in Sources */,
+				6A176D4219F875AC0067D091 /* WidgetViewController.m in Sources */,
+				6A261EA519F7FCB600C983FE /* AppDelegate.m in Sources */,
+				6A176D2E19F849480067D091 /* MirrorPortalManager.m in Sources */,
+				6A261EA219F7FCB600C983FE /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6A261EB119F7FCB600C983FE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6A261EBC19F7FCB600C983FE /* Mirror_PortalTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		6A261EB719F7FCB600C983FE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6A261E9B19F7FCB600C983FE /* Mirror Portal */;
+			targetProxy = 6A261EB619F7FCB600C983FE /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		6A261EA919F7FCB600C983FE /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6A261EAA19F7FCB600C983FE /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		6A261EBD19F7FCB600C983FE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Debug;
+		};
+		6A261EBE19F7FCB600C983FE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		6A261EC019F7FCB600C983FE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				INFOPLIST_FILE = "Mirror Portal/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		6A261EC119F7FCB600C983FE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				INFOPLIST_FILE = "Mirror Portal/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		6A261EC319F7FCB600C983FE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Mirror PortalTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Mirror Portal.app/Mirror Portal";
+			};
+			name = Debug;
+		};
+		6A261EC419F7FCB600C983FE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Mirror PortalTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Mirror Portal.app/Mirror Portal";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6A261E9719F7FCB600C983FE /* Build configuration list for PBXProject "Mirror Portal" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6A261EBD19F7FCB600C983FE /* Debug */,
+				6A261EBE19F7FCB600C983FE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6A261EBF19F7FCB600C983FE /* Build configuration list for PBXNativeTarget "Mirror Portal" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6A261EC019F7FCB600C983FE /* Debug */,
+				6A261EC119F7FCB600C983FE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6A261EC219F7FCB600C983FE /* Build configuration list for PBXNativeTarget "Mirror PortalTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6A261EC319F7FCB600C983FE /* Debug */,
+				6A261EC419F7FCB600C983FE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 6A261E9419F7FCB600C983FE /* Project object */;
+}
